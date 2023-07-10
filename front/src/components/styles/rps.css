@@ -1,0 +1,19 @@
+:disabled{
+    background-color: grey;
+}
+
+.userChoice{
+    font-size: 2em;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+}
+
+.userOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pcChoice{
+    text-align: center;
+}

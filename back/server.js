@@ -13,11 +13,6 @@ const PORT=process.env.PORT || 8080
     credentials:true
   }))
 
-  // app.use('/google', createProxyMiddleware({
-  //   target: 'https://accounts.google.com',
-  //   changeOrigin: true,
-  // }));
-  
   app.use(session({
     secret: 'secret',
     resave: false,

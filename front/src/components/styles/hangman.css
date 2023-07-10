@@ -1,0 +1,37 @@
+.disneyImage{
+    width: 45%;
+}
+.image{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.letters{
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #de5959;
+}
+.movies{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.keyboard{
+    text-align: center;
+    margin: 3%;
+}
+.keyButtons{
+    width: 7%;
+    height: 50px;
+    margin:0.5% !important;
+}
+.errorDiv{
+    text-align: center;
+}
+.error{
+    color: #de5959;
+    font-size: 1.5em;
+}
+.keyButtons:hover{
+    background-color: red !important;
+}

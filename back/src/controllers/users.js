@@ -55,14 +55,14 @@ const logout=(req,res)=>{
 const update=async (req,res)=>{
     try{
         const userId=req.params.userId
-        const newScore=req.body.points
-        console.log(userId,newScore)
+        const points=req.body.points
+        console.log(userId,points)
         const user=await User.findById(userId)
         if(!user){
             return res.status(400).json({message:'Usuario no encontrado'})
         }
 
-        user.points=newScore
+        user.points=points
         await user.save()
         return res.status(200).json({message:'Puntaje actualizado'})
     }catch(err){

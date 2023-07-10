@@ -1,0 +1,30 @@
+.totalPoints{
+    font-size: 1.5em;
+}
+
+.gameCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.ui.card {
+    margin: 0 !important;
+}
+
+.header{
+    margin:10px
+}
+
+h1, h2, h3, p{
+    text-align: center;
+    color: #de5959;
+}
+.playButton{
+   background-color: #fcd0a1 !important;
+}
+.playButton:hover{
+    background-color:#fcb13e !important;
+}

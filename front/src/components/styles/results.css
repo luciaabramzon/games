@@ -1,0 +1,23 @@
+.buttonsResult{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.resultIcon{
+    text-align: center;
+    margin-top: 4%;
+}
+.backButton{
+    background-color: #fcd0a1 !important;
+}
+.backButton:hover{
+    background-color:#fcb13e !important;
+}
+.againButton{
+    background-color: #de5959 !important;
+}
+.againButton:hover{
+    background-color: #fcd0a1 !important;
+}
